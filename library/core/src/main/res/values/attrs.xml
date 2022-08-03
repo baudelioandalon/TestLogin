@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="label" format="string" />
+
+    <declare-styleable name="flowBottomNavigation">
+        <attr name="cu_defaultIconColor" format="color" />
+        <attr name="cu_selectedIconColor" format="color" />
+        <attr name="cu_backgroundBottomColor" format="color" />
+        <attr name="cu_circleColor" format="color" />
+        <attr name="cu_countTextColor" format="color" />
+        <attr name="cu_countBackgroundColor" format="color" />
+        <attr name="cu_countTypeface" format="string" />
+        <attr name="cu_rippleColor" format="color" />
+        <attr name="cu_shadowColor" format="color" />
+        <attr name="cu_hasAnimation" format="boolean" />
+        <attr name="cu_heightCell" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="CUShadowLayout">
+        <attr name="sl_shadowed" format="boolean"/>
+        <attr name="sl_shadow_distance" format="dimension"/>
+        <attr name="sl_shadow_angle" format="integer"/>
+        <attr name="sl_shadow_radius" format="dimension"/>
+        <attr name="sl_shadow_color" format="color"/>
+    </declare-styleable>
+
+    <declare-styleable name="CURoundableLayout">
+        <attr name="cu_cornerLeftTop" format="dimension" />
+        <attr name="cu_cornerRightTop" format="dimension" />
+        <attr name="cu_cornerLeftBottom" format="dimension" />
+        <attr name="cu_cornerRightBottom" format="dimension" />
+        <attr name="cu_backgroundColor" format="color" />
+        <attr name="cu_strokeLineWidth" format="dimension" />
+        <attr name="cu_strokeLineColor" format="color" />
+        <attr name="cu_dashLineWidth" format="dimension" />
+        <attr name="cu_dashLineGap" format="dimension" />
+
+        <attr name="cu_cornerLeftSide" format="dimension" />
+        <attr name="cu_cornerRightSide" format="dimension" />
+
+        <attr name="cu_cornerAll" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CUNumberAmount">
+
+        <attr name="na_behavior" format="boolean" />
+        <attr name="na_isEnabled" format="boolean" />
+        <attr name="na_complete_color" format="color" />
+        <attr name="na_complete_size" format="integer" />
+        <attr name="na_cash_simbol_color" format="color" />
+        <attr name="na_cash_simbol_size" format="integer" />
+        <attr name="na_cash_simbol_gravity">
+            <flag name="top" value="1" />
+            <flag name="center" value="2" />
+            <flag name="bottom" value="3" />
+        </attr>
+        <attr name="na_integer_color" format="color" />
+        <attr name="na_integer_size" format="integer" />
+        <attr name="na_max_length" format="integer|reference" />
+
+    </declare-styleable>
+
+</resources>

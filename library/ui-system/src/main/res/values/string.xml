@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="correo_text">Correo</string>
+    <string name="psw_text">Contraseña</string>
+    <string name="login_enter_text">Entrar</string>
+    <string name="ya_conoces_nuestro_sitio">¿Ya conoces nuestro sitio?</string>
+    <string name="cargando">Cargando...</string>
+    <string name="title_holder">Buen dia %s</string>
+    <string name="email_holder">Su correo es %s</string>
+    <string name="folio_holder">Su folio es %s</string>
+</resources>

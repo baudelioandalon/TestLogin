@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AnimationPopUpWindowScaleInOut">
+        <item name="android:windowEnterAnimation">@anim/scale_in</item>
+        <item name="android:windowExitAnimation">@anim/scale_out</item>
+    </style>
+
+    <style name="BlurDialogFragment.Default.Animation" parent="@android:style/Animation.Activity">
+        <item name="android:windowEnterAnimation">@anim/default_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/default_dialog_out</item>
+    </style>
+
+    <style name="ButtonNormalFilled" parent="Widget.MaterialComponents.Button">
+        <item name="textAllCaps">false</item>
+        <item name="background">@drawable/shape_filled_normal</item>
+        <item name="android:fontFamily">@font/helvetica_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="backgroundTint">@color/color_state_list</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="ButtonNormalFilledOcr" parent="Widget.MaterialComponents.Button">
+        <item name="textAllCaps">false</item>
+        <item name="background">@drawable/shape_filled_normal</item>
+        <item name="android:fontFamily">@font/helvetica_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="backgroundTint">@color/color_state_list</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="FullScreenDialog">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:background">#41000000</item>
+    </style>
+
+</resources>
